@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* 🔴 Force class-based dark mode ONLY */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Prevent system preference from overriding */
+
